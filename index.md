@@ -1,37 +1,260 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>以核養X</title>
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<link href="css/mobile under320px.css" rel="stylesheet" type="text/css">
+<link href="css/small tablet 321_767px.css" rel="stylesheet" type="text/css">
+<link href="css/small desktop 768 1096.css" rel="stylesheet" type="text/css">	
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="./wholeNuclear.html">
+  <img src="images/pic_bananaisnuclearLogo.png" width="100" height="40" class="logo"/>
+  </a>
+    <nav>
+      <ul>
+        <li><a href="#top">回到首頁</a></li>
+        <li><a href="#about">什麼是「以核養Ｘ」</a></li>
+		<li><a href="#wholenuclear">全核家園何10了</a></li>
+        <li><a href="#team">核心團隊</a></li>
+		<li><a href="#q&a">Q & A</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- top Section -->
+  <section class="top" id="top">
+    <h2 class="light_w"><span class="strong_w">參與「以核養Ｘ」</span>，終結看人吃香蕉惡夢</h2>
+    <p class="tagline">打造全核家園，你還有</p>
 
-You can use the [editor on GitHub](https://github.com/nuforbana2/banana-nuclear/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+	<!-- Display the countdown timer in an element -->
+	<h2 class="top_header" id="demo">1235  <span class="strong_w">天</span> </h2>
+	<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 1, 2025 00:00:00").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML =  days + " 天 "
+	// + hours + "時 "+ minutes + "分 " + seconds + "秒 ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "全核家園建造完成";
+  }
+}, 1000);
+</script>  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nuforbana2/banana-nuclear/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	 </br>                  <br> 
+    <div class="button"><a href="bananaisnuclear.pdf" target="_blank" style="text-decoration:none;color:#FFFFFF;">下載全核家園PDF</a>
+      </div>  	  
+  </section>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="title">什麼是<span class="strong_b">「以核養Ｘ」</span></h2>
+    <h2 class="hidden">About</h2>
+    <p class="text_column">全核，不只是有電。<br>
+    </br>以核養Ｘ，有三十幾重涵義：<br>
+	</br>一、核能就是香蕉，香蕉就是綠能，核能就是綠能，綠能就是綠能。<br>
+	</br>二、直接用核能取代所有發電類型。<br>
+	</br>三、全面擋下再生能源，留給鋼蛋科技發展的空間。<br>
+	</br>四～三十七、要養什麼，由你決定。</br></p>
+  </section>
+  <!-- Stats wholenuclear Section -->
+  <div class="wholenuclear" id="wholenuclear">
+    <h1 class="title">全核家園何10了</h1>
+    <div class="thumbnail">
+      <h1 class="stats">1</h1>
+      <h4>核能就是綠能</h4>
+      <p>馬前總統說是綠能就是綠能，一言既出，是馬難追。</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats"> 2 </h1>
+      <h4>黃金就是核廢料</h4>
+      <p>核電沒有廢料，只有黃金，加入全核家園，成為黃金剩逗士！</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">3 </h1>
+      <h4>有核能勝過有核武</h4>
+      <p>核子彈跟核電廠一樣，都需要超高技術力，多蓋核電廠勝過核子彈。</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">4 </h1>
+      <h4>地震很怕核電廠</h4>
+      <p>老舊斷層最怕核電廠，一旦有了核電廠，斷層都不敢錯動了，地震都不敢發生了！</p>
+    </div>
+	  <div class="thumbnail">
+      <h1 class="stats">5 </h1>
+      <h4>核能就是很能</h4>
+      <p>核能就像超能特攻隊，颳風下雨地震海嘯山崩失火土石流，任勞任怨，絕不核災。</p>
+    </div>
+	  <div class="thumbnail">
+      <h1 class="stats">6 </h1>
+      <h4>企業打造全核島</h4>
+      <p>推動一鄉一核電廠的全核家園，將吸引全球核電業來投資台灣，外資中資進場，提升經濟，所得倍增的美夢正成為現實。</p>
+    </div>
+	  <div class="thumbnail">
+      <h1 class="stats">7 </h1>
+      <h4>就想要全核百分百</h4>
+      <p>吸引全球核電業來台劃設香蕉園區，推動民間自建核電廠，企業不再高喊出走！鮭魚通通返鄉！香蕉共核國就在眼前！</p>
+    </div><div class="thumbnail">
+      <h1 class="stats">8 </h1>
+      <h4>全核用愛發電</h4>
+      <p>真正愛地球的用愛發電就是要擁核。輻射防腦殘，有核災的地區更能留下香蕉生長空間。愛地球，吃香蕉，用核電。</p>
+    </div><div class="thumbnail">
+      <h1 class="stats">9 </h1>
+      <h4>全核解救地球</h4>
+      <p>等比爾蓋茲研發成功，全核家園不只用核電，更要推行核動力載具，地球就會開始降溫，極端氣候將成為歷史。</p>
+</div>
+	  <div class="thumbnail">
+      <h1 class="stats">10 </h1>
+      <h4>核電廠就是鋼蛋</h4>
+      <p>最尖端的科技需要最強悍的能源，核電鋼蛋，是你唯一的選擇！</p>
+    </div>
+	  <img src="images/pic_bananaisnuclear.png" width="400" height="208" class="title"/>
+  </div>
+  <!-- QA Section -->
+  <section class="qa_section" id="q&a">
+    <h1 class="title"> 常見問題<span class="strong_b">Q & A</span></h1>
+    <div class="qa_thumbnail">     
+      <h4>Q1：我簽過以核養綠了，以核養Ｘ還要簽嗎？</h4>
+      <p>A：以核養綠宣傳的是「半套」的核能政策，以核養Ｘ才是真正「全套」的全核家園，永和擁核人該簽，飯盒反核更應該簽。</p>
+	  <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>
+	<div class="qa_thumbnail">     
+      <h4>Q2：簽了之後可以幹嘛？</h4>
+      <p>A：七年時間，讓我們一起穩健種植香蕉發展核電，打造香蕉共核國。</p>
+      <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>	
+	<div class="qa_thumbnail">     
+      <h4>Q3： 我簽完連署書就能進行以核養Ｘ嗎？</h4>
+      <p>Ａ：不能，因為我們距離全核家園還有核五六七到核三零九的距離，要到核能載具跟核電鋼彈需要更久，但我們會一直努力，直到一鄉鎮一核電，一家一核電，一台鋼蛋一核電。</p>
+      <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>		
+	<div class="qa_thumbnail">     
+      <h4>Q4：我對這個以核養Ｘ不抱希望，就算過了又能怎樣。</h4>
+      <p>A：過了不能怎樣，但不過很怎麼樣。萬一沒有達標，未來就沒有鋼蛋囉！</p>
+      <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>
+	<div class="qa_thumbnail">     
+      <h4>Q5：我想要加入，但是我怕被政治迫害司法冤獄台灣加油，你們會保護我嗎？</h4>
+      <p>Ａ：我們絕對保證不會保護你，因為我們保護的是全台灣的香蕉，成大事者不拘小節。</p>
+      <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>
+	<div class="qa_thumbnail">     
+      <h4>Q6：為什麼有兩個以核XX？</h4>
+      <p>A：以核養綠是經過中選會認證的公投提案，我們都知道現在執政黨是誰，這個案子會過一定有鬼。以核養Ｘ，開放讓所有人提出未來能源藍圖，不再任由政府擺布。</p>
+      <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>
+	<div class="qa_thumbnail">    
+      <h4>Q7：兩個網站一定要長得這麼像嗎？</h4>
+      <p>Ａ：以核養Ｘ是由專業核心團隊經過多年的思考與規劃後，選擇在今年這個能源轉型的關鍵時機點推出。之所以會長得如此相像，想必是有識之士的跨時空共鳴，絕對沒有抄襲之嫌。</p>
+      <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>
+	  <div class="qa_thumbnail">     
+      <h4>Q8：如果我要同時提出以核養多個Ｘ怎麼做比較好？</h4>
+      <p>Ａ：要養什麼都行，請發揮創意，將您的建議寄到以下信箱(bananaisnuclear@protonmail.com)，我們會擇優公開。你的小動作，我的大新聞。</p>
+      <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>
+	<div class="qa_thumbnail">     
+      <h4>Q9：我想要抖內這個EVENT！</h4>
+      <p>Ａ：我們什麼都不缺就是缺意見，請把意見寄給我們。</p>
+      <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>
+		<div class="qa_thumbnail">     
+      <h4>Q10：我想要在民間呼應！</h4>
+      <p>Ａ：我們什麼都不缺就是缺分享，請用分享支持我們。</p>
+      <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>
+			<div class="qa_thumbnail">     
+      <h4>Q11：我希望偏頭痛青年可以把大頭貼換回來，不要裝小清新，才是正宗。</h4>
+      <p>Ａ：安心してください，We will FIGHT for it。</p>
+      <hr size="1" align="center" noshade width="90%" color="EDEDED"></div>
+  </section>
+  <!-- Parallax Section -->
+  <section class="team" id="team">
+    <h1 class="title"><span class="strong_b">核心</span>團隊</h1>
+    <hr size="1" align="center" noshade width="20%" color="606060">
+  </section>
+  <!-- More Info Section -->
+  <footer>
+    <article class="footer_column">
+      <img src="images/pic_school.png" alt="" width="100" height="100" class="cards"/>
+	  <h3>黎明HOW</h3>
+	  <p>支持以核養校。國立宇宙大學 核武既核爆工程系系主任，致力於激進核能發展，目標將核能落實在生活每一個角落，以保障個體的人身安全</p>
+    </article>
+	  <article class="footer_column">
+      <img src="images/pic_brain.png" alt="" width="400" height="200" class="cards"/>
+	    <h3>偏頭痛青年</h3>
+      <p>支持以核養頭。終結核能終結者發起人，以青年視角，說明核能就是世界趨勢，為了下一代子孫著想，應當走向全面核能，大至一鄉鎮一核電廠，小至一家一核廢料桶</p>
+    </article>
+	    <article class="footer_column">
+      <img src="images/pic_house.png" alt="" width="400" height="200" class="cards"/>
+	    <h3>挺住青年</h3>
+      <p>支持以核養住。認為台灣一定要挺住，挺住就要用核能，因為核能是最具防禦性、破壞性的能源。不僅可以用來防衛自己安全，必要時還能主動發動攻擊。如果一鄉一核電廠，台灣就可以挺住任何攻擊，不僅不用擔心國防安危，甚至連宇宙攻擊都不用怕。</p>
+    </article>
+	  <article class="footer_column">
+      <img src="images/pic_fish.png" alt="" width="400" height="200" class="cards"/>
+	    <h3>呆丸刁民</h3>
+      <p>支持以核養魚。網路評論家，經常照Ｘ光，三折肱成良醫，對於放射線有絕對的經驗和了解</p>
+    </article>
+	  <article class="footer_column">
+      <img src="images/pic_food.png" alt="" width="400" height="200" class="cards"/>
+	    <h3>皇宏薇</h3>
+      <p>支持以核養核食。政治人物，致力於核能就是生活，核爆後的城市都是綠意盎然，核食更是無比美味，期望成立「核作社」來販賣核食。同時開放服務處的電腦給大家按讚！</p>
+    </article>
+	  <article class="footer_column">
+      <img src="images/pic_lobster.png" alt="" width="400" height="200" class="cards"/>
+	    <h3>皇輝輝</h3>
+      <p>支持以核養龍蝦。曾任核電廠最高階主管，認為全核家園「是最對的」，是全台灣最美的風景，核電廠都非常安全、美麗，一鄉鎮一核電廠不僅可以穩定發電，更可以促進觀光。最喜歡吃海產，特別是龍蝦。</p>
+    </article>
+	  <article class="footer_column">
+      <img src="images/pic_medicine.png" alt="" width="400" height="200" class="cards"/>
+      <h3>皇民懼</h3>
+		  <p>支持以核養病。醫療從業人員，醫療中就有核能，有看醫生就會接觸核能，核能並不可怕，核能不會導致生病，甚至更是現代醫療的里程碑，核能治百病。</p>
+    </article>
+<article class="footer_column">
+  <img src="images/pic_fans.png" alt="" width="400" height="200" class="cards"/>    
+      <h3>波多黎各娜娜</h3>
+		  <p>支持以核養粉。住在加勒比海的台灣人，希望台灣繼續使用核能，保障台海安全，一鄉鎮一核電廠才能確保國防安全，撰有「我在核電廠的日子」部落格。</p>
+    </article>
+<article class="footer_column">
+      <img src="images/pic_horse.png" alt="" width="400" height="200" class="cards"/>
+      <h3>媽英啾</h3>
+		  <p>支持以核養馬。前政治人物，極端支持全核家園，雖已從政壇退休，並且司法案件纏身，但仍會努力以過往「跑選舉」方式宣傳全核家園，上午菜市場、晚上跟垃圾車，有機會就立刻發傳單宣傳。 </p>
+    </article>
+<article class="footer_column">
+      <img src="images/pic_shoulder.png" alt="" width="400" height="200" class="cards"/>
+      <h3>江一滑</h3>
+		  <p>支持以核養肩。橫跨學術界、政治界，著有《自由民主的全核之路》，認為核能是最科學、符合效益主義的能源。</p>
+    </article>
+<article class="footer_column">
+      <img src="images/pic_banana.png" alt="" width="400" height="200" class="cards"/>
+      <h3>章餓症</h3>
+		  <p>支持以核養蕉。目前從事農業，認為核電廠周圍都應該作為復興台灣香蕉的重要土地，恢復台灣香蕉王國的輝煌名聲。</p>
+    </article>
+<article class="footer_column">
+      <img src="images/pic_religion.png" alt="" width="400" height="200" class="cards"/>
+      <h3>核蟹法師</h3>
+		  <p>支持以核養教。認為核能符合自然定律，是萬物應該依循的方向，人類需要作為食物鏈最上層，應該將自己物種的能力發揮極致，用核能貫徹主宰的地位。</p>
+    </article>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2018 - <strong>以核養X全核家園大聯盟</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
